@@ -1,5 +1,5 @@
 {% set name = "jinja2-simple-tags" %}
-{% set version = "0.6.0" %}
+{% set version = "0.6.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jinja2-simple-tags-{{ version }}.tar.gz
-  sha256: a7d552f7e9d512ad82962bc15839179c294554b24b9ae5844f1c15b6725834df
+  sha256: 54abf83883dcd13f8fd2ea2c42feeea8418df3640907bd5251dec5e25a6af0e3
 
 build:
   noarch: python
